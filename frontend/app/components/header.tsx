@@ -58,12 +58,12 @@ export default function Header() {
               >
                 Employee Handbook
               </button>
-              <button
+              {/* <button
                 onClick={() => handleOptionClick("Scraped Data")}
                 className="block w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-zinc-700"
               >
                 Scraped Data
-              </button>
+              </button> */}
             </div>
           )}
         </div>
