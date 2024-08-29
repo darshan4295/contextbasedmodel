@@ -9,7 +9,7 @@ export default function Header() {
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
-  const handleOptionClick = (option) => {
+  const handleOptionClick = (option :any) => {
     setSelectedOption(option);
     setIsOpen(false);
   };
